@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <section className="h-[76%] flex justify-center">
+    <section className="h-[76%] mt-10 flex justify-center">
       <motion.div
         initial={{ opacity: 0.0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -26,7 +26,7 @@ const Hero = () => {
             perfect NFT that suits your personality. A futuristic marketplace
             possessing futuristic goods
           </p>
-          <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
+          <div className="my-6 flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
             <Link
               href="/market"
               className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900"

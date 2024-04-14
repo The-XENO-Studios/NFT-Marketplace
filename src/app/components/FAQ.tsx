@@ -50,7 +50,7 @@ const FAQ = () => {
   const [openIndex, setOpenIndex] = useState<number>(1);
   //here index starts from 1. 0 means all closed
   return (
-    <section className="px-3 mt-36 text-white w-screen flex flex-col items-center h-fit pt-16 pb-16 object-cover  text-center">
+    <section className="px-7 md:px-14 mt-36 text-white w-screen flex flex-col items-center h-fit pt-16 pb-16 object-cover  text-center">
       <div className="container">
         <div className="mb-16 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
           Recently Asked <span className="text-purple-600">Questions</span>

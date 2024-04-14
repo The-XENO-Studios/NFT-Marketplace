@@ -1,6 +1,6 @@
 const ProfilMargin = () => {
   return (
-    <div className="mt-36 w-full flex flex-col items-center">
+    <div className="px-7 mt-36 w-full flex flex-col items-center">
       <div className="mb-16 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
         About Our <span className="text-purple-600">Daily Goals</span>
       </div>
