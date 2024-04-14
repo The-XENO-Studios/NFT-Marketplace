@@ -70,7 +70,7 @@ const About = () => {
           </time>
           <p className="text-base font-normal text-gray-500 dark:text-gray-400">
             I made the website even cooler and stronger, so that the people get
-            crazy :)
+            crazy
           </p>
         </li>
         <li className="mb-10 ms-6">
