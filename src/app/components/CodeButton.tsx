@@ -3,6 +3,7 @@
 import { useRef, useState } from "react";
 import { FiLock } from "react-icons/fi";
 import { motion } from "framer-motion";
+import { FaBitcoin } from "react-icons/fa6";
 
 const TARGET_TEXT = "BUY NOW";
 const CYCLES_PER_LETTER = 2;
@@ -10,7 +11,7 @@ const SHUFFLE_TIME = 50;
 
 const CHARS = "!@#$%^&*():{};|,.<>/?";
 
-const CodeButton = () => {
+const CodeButton = ({ price }: { price: number }) => {
   const intervalRef = useRef<any>(null);
 
   const [text, setText] = useState(TARGET_TEXT);
@@ -59,9 +60,16 @@ const CodeButton = () => {
       onMouseLeave={stopScramble}
       className="w-full flex items-center justify-center group relative overflow-hidden rounded-lg border-[1px] border-neutral-500 bg-neutral-700 px-4 py-2 font-mono font-medium uppercase text-neutral-300 transition-colors hover:text-indigo-300"
     >
-      <div className="relative z-10 flex items-center gap-2">
-        <FiLock />
-        <span>{text}</span>
+      <div className="relative z-10 flex items-center gap-16">
+        <div className="flex items-center gap-2">
+          <FiLock />
+          <span>{text}</span>
+        </div>
+
+        <div className="flex items-center gap-3 text-white">
+          <p>{price}</p>
+          <FaBitcoin className="w-7 h-7" />
+        </div>
       </div>
       <motion.span
         initial={{

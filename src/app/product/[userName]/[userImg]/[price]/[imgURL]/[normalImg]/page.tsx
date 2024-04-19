@@ -78,7 +78,7 @@ const page = async ({ params }: { params: ParamType }) => {
                   </div>
                 </div>
                 <div className="mt-5 w-full">
-                  <CodeButton />
+                  <CodeButton price={params.price} />
                 </div>
               </div>
             </div>
