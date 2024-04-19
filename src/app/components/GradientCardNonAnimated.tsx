@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { BackgroundGradient } from "./ui/background-gradient";
 import { FaBitcoin } from "react-icons/fa6";
+import Link from "next/link";
 
 export function GradientCardNA({
   imgURL,
@@ -18,13 +19,17 @@ export function GradientCardNA({
   userName: string;
   price: number;
   ClassName: string;
-
   userImg: string;
 }) {
   return (
-    <div className={ClassName}>
+    <Link
+      href={`/product/${userName}/${encodeURIComponent(
+        userImg
+      )}/${price}/${encodeURIComponent(imgURL)}/${normalImg || false}`}
+      className={ClassName}
+    >
       <BackgroundGradient
-        className={`transition-all relative rounded-[22px] w-72 p-4 sm:p-10 bg-white dark:bg-zinc-900`}
+        className={`z-50 hover:cursor-pointer transition-all relative rounded-[22px] w-72 p-4 sm:p-10 bg-white dark:bg-zinc-900`}
       >
         {normalImg ? (
           <Image
@@ -65,6 +70,6 @@ export function GradientCardNA({
           </div>
         </div>
       </BackgroundGradient>
-    </div>
+    </Link>
   );
 }

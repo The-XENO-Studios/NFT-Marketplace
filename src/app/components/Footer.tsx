@@ -23,7 +23,7 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="" className="hover:underline">
+                  <a href="https://nextjs.org" className="hover:underline">
                     Tech Stacks
                   </a>
                 </li>
