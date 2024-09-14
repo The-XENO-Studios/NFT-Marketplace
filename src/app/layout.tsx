@@ -5,7 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "NDCFT",
+  title: "XENFT",
   description: "Buy NFTs of your choice",
   icons: { icon: "/Logo.png" },
 };
