@@ -7,7 +7,7 @@ const Footer = () => {
             <a href="/" className="flex items-center">
               <img src="/Logo.png" className="h-8 me-3" alt="Logo" />
               <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-                NDCFT
+                XENFT
               </span>
             </a>
           </div>
@@ -18,8 +18,8 @@ const Footer = () => {
               </h2>
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
                 <li className="mb-4">
-                  <a href="/" className="hover:underline">
-                    NDCFT
+                  <a href="https://tailwindcss.com" className="hover:underline">
+                    Tailwind
                   </a>
                 </li>
                 <li>
@@ -73,8 +73,8 @@ const Footer = () => {
         <div className="sm:flex sm:items-center sm:justify-between">
           <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
             © 2024{" "}
-            <a href="https://flowbite.com/" className="hover:underline">
-              NDCFT™
+            <a href="/" className="hover:underline">
+              XENFT™
             </a>
             . All Rights Reserved.
           </span>

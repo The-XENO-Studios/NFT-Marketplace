@@ -115,7 +115,7 @@ const About = () => {
             Released on May 03, 2024
           </time>
           <p className="text-base font-normal text-gray-500 dark:text-gray-400">
-            NDCFT has become the world's biggest NFT marketplace now. So explore
+            XENFT has become the world's biggest NFT marketplace now. So explore
             our NFTs now
           </p>
         </li>

@@ -19,7 +19,7 @@ const Navbar = () => {
         >
           <img src="/Logo.png" className="h-9" alt="Logo" />
           <span className="Start2P self-center text-lg font-semibold whitespace-nowrap dark:text-white tracking-wider Bebas">
-            NDCFT
+            XENFT
           </span>
         </a>
         <div className="flex md:order-2">

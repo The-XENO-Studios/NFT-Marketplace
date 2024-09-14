@@ -22,7 +22,7 @@ const Hero = () => {
             Discover the domain of <Highlight>NFTs</Highlight>
           </div>
           <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 dark:text-gray-400">
-            Here at NDCFT, we focus on your preferences so that you can find the
+            Here at XENFT, we focus on your preferences so that you can find the
             perfect NFT that suits your personality. A futuristic marketplace
             possessing futuristic goods
           </p>

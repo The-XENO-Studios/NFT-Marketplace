@@ -26,7 +26,7 @@ Contestants may use pre-existing third-party code but should be wary of template
 */
 const FAQS = [
   {
-    title: "Why it is called NDCFT?",
+    title: "Why it is called XENFT?",
     desc: "It is a fun name combining both Non Fungible Token and Notre Dame College.",
   },
   {
@@ -34,7 +34,7 @@ const FAQS = [
     desc: "Our marketplace provides you with NFTs based on your personal preferences curated by our AI. So you will always get what you desire.",
   },
   {
-    title: "Who can buy from NDCFT marketplace?",
+    title: "Who can buy from XENFT marketplace?",
     desc: "Anyone who can use Internet can buy form our website, obviously you must have the money :)",
   },
   {

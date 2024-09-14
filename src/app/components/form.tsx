@@ -12,7 +12,7 @@ export function Form() {
   return (
     <div className="relative z-50 mt-24 max-w-md w-full mx-auto rounded-none md:rounded-2xl p-4 md:p-8 shadow-input bg-white dark:bg-black text-neutral-200">
       <h2 className="font-bold text-xl text-neutral-800 dark:text-neutral-200">
-        Publish to NDCFT
+        Publish to XENFT
       </h2>
       <p className="text-neutral-600 text-sm max-w-sm mt-2 dark:text-neutral-300">
         Submit and share your creation with everyone. <br /> Make sure that you
