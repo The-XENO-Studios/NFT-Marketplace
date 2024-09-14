@@ -27,7 +27,7 @@ Contestants may use pre-existing third-party code but should be wary of template
 const FAQS = [
   {
     title: "Why it is called XENFT?",
-    desc: "It is a fun name combining both Non Fungible Token and Notre Dame College.",
+    desc: "It is a fun name combining both Non Fungible Token and my very own studio's name 'XENO'.",
   },
   {
     title: "Why should I buy from this marketplace?",
